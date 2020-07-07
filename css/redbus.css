@@ -1,0 +1,905 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body {
+  /*background: #eee;*/
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#headerBlock {
+  width: 100%;
+  z-index: 1;
+  background: #d84f57;
+  position: fixed;
+}
+
+#headerBlock .container {
+  display: flex;
+  width: 1200px;
+  margin: 0px auto;
+  height: 55px;
+  align-items: center;
+}
+
+#headerBlock .container .leftNav {
+  flex: 1;
+}
+
+#headerBlock .container .rightNav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* slider block css starts here */
+
+
+#sliderBlock img {
+  width: 100%;
+  height: 450px;
+}
+
+/*--------left menu block -----------------*/
+.leftNav section {
+  display: flex;
+}
+
+.leftNav ul,
+.rightNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.leftNav ul li a,
+.rightNav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.logo {
+  flex: 1;
+}
+
+.leftmenu {
+  flex: 8;
+}
+
+.logo a {
+  background-image: url(../images/logo.png);
+  width: 80px;
+  height: 48px;
+  display: flex;
+  text-indent: -9999px;
+  float: left;
+}
+
+.leftNav ul li a.active {
+  font-weight: 600;
+  border-bottom: 3px solid #fff;
+  transition: ease-in-out 0.6s;
+}
+
+.leftNav ul li a:hover {
+  color: #f9e7ea;
+}
+
+.fa-user-circle {
+  font-size: 35px;
+  font-weight: lighter;
+  line-height: 20px;
+}
+
+.fa-chevron-down {
+  margin: 0px 0px 0 6px;
+}
+
+.after_user_circle {
+  margin: -24px 21px 0 41px !important;
+  display: block;
+}
+
+#searchBusesBlock article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  position: relative;
+  top: 30px;
+}
+
+#sliderBlock {
+  background-image: url("../images/safetyplus1.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+/*-------Attribute selector -----*/
+
+input[type="date"] {
+  font-size: 11px;
+  padding: 14px 30px !important;
+  border-right: none !important;
+}
+
+#sliderBlock article input {
+  padding: 17px 24px 15px 46px;
+  border: none;
+  border-right: 1.3px solid #888;
+  box-sizing: border-box;
+}
+
+#sliderBlock article button {
+  height: 46px;
+  width: 144px;
+  background: #d74f57;
+  box-sizing: border-box;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.city_icon {
+  position: relative;
+}
+
+.city_icon i {
+  position: absolute;
+  top: -14px;
+  left: 12px;
+  font-size: 20px;
+}
+
+.toggle i {
+  position: absolute;
+  top: 216px;
+  right: 830px;
+}
+  
+}
+
+/* latestUpdateBlock css starts here */
+#latestUpdateBlock {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+#latestUpdateBlock article {
+  width: 530px;
+  height: 100px;
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  background-color: #fff5e5;
+  display: flex;
+  align-items: center;
+  margin-top: -40px;
+  margin-left: 400px;
+}
+
+#latestUpdateBlock article div:nth-child(1) {
+  flex: 2;
+}
+
+#latestUpdateBlock article div:nth-child(2) {
+  flex: 8;
+}
+#latestUpdateBlock article div:nth-child(3) {
+  flex: 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 94px;
+}
+#bell-on {
+    color: #d84f57;
+    font-size: 55px;
+}
+#latestUpdateBlock article h4 {
+  font-size: 15px;
+  margin: 0;
+  padding: 5px;
+}
+#latestUpdateBlock article p {
+  font-size: 12px;
+  margin: 0;
+  padding: 5px;
+  font-weight: lighter;
+}
+#latestUpdateBlock article button {
+  width: 130px;
+  height: 25px;
+  background: #d74f57;
+  color: #fff;
+  padding: 4px;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+}
+/*------- latest update block ends here-------*/
+
+
+/*---- on time css block start here-----*/
+#OnTimeBlock > article {
+  width: 1200px;
+  border: 1px  solid #cccccc;
+  background: #ffffff;
+  margin: 60px auto;
+  display: flex;
+  height: 320px;
+}
+.leftOnDiv{
+  flex: 1;
+}
+.leftOnDiv p {
+  background: url("../images/ic-shield-red-big.png");
+  height: 88px;
+  width: 88px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  margin: 20px;
+}
+.rightOnDiv {
+  flex: 8;
+}
+.img3_hero,
+.img4_hero {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+.img3_hero{
+  background-image: url("../images/tip-icon.png");
+  width: 24px;
+  height: 24px;
+}
+.img4_hero {
+  background-image: url("../images/otgText.png");
+  width: 156px;
+  height: 26px;;
+}
+.rightInsideFooter {
+  display: flex;
+  margin: 10px;
+}
+.rightInsideFooter div{
+  flex: 1;
+}
+/*---- on time css block start here-----*/
+
+
+/*-------myBusTracker css block starts here --------*/
+#myBusTracker {
+  width: 1200px;
+  height: 524px;
+  background-color: #e8ecef;
+  margin: 0 auto;
+  margin-top: 50px;
+ 
+}
+.leftImage{
+  display: inline-block;
+  float: left;
+  width: 43%;
+  margin-left: 71px;
+  margin-top: 26px;
+  background-repeat: no-repeat;
+  background-image: url("../images/tmb_img.png");
+  width: 440px;
+  height: 282px;
+  object-fit: contain;
+}
+.sub_container_tmb {
+    margin-left: 80px;
+    float: left;
+    width: 531px;
+}
+.title_tmb{
+  height: 10px;
+  font-size: 15px;
+  text-align: left;
+  padding-top: 36px;
+  color: #4a4a4a;
+  padding-left: 84px;
+}
+.subtext_tmb{
+  padding-top: 40px;
+  font-size: 17px;
+  line-height: 1.36;
+  text-align: left;
+  padding-right: 10px;
+  padding-left: 87px;
+  height: 35px;
+  color: #4a4a4a;
+}
+.subtext_tmb h5{
+  font-weight: lighter;
+}
+.path_tmb {
+  width: 1000px;
+  height: 2px;
+  border-bottom: 2px solid #ddd;
+  padding-top: 35px;
+  margin-left: 92px;
+  margin-right: 92px;
+  display: inline-block;
+}
+.know_more{
+  text-decoration: none;
+  color:blueviolet;
+  border-radius: 2px;
+  text-decoration: none;
+  border: 1px solid blueviolet;
+  cursor: pointer;
+}
+.know_more a
+{
+  -webkit-tap-highlight-color: transparent
+  font-size: 14px;
+  text-align: center;
+}
+.links_tmb{
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  padding-top: 90px;
+  width: 130px;
+  height: 32px;
+  box-sizing: border-box;
+}
+
+.info_tmb{
+  margin-left: 135px;
+  float:left;
+  width: 200px;
+  text-align: center;
+  padding-top: 50px;
+}
+.title {
+  letter-spacing: 1px;
+  color: #4a4a4a;
+  margin-left: 0px;
+}
+.value{
+  font-size: 36px;
+  text-align: center;
+  color: #da4d52;
+}
+.text{
+  text-align: center;
+  color: #4a4a4a;
+  margin-left: -17px;
+}
+
+.Footer_tmb {
+  display: inline-flex;
+  margin: -21px;
+  margin-left: 15px;
+}
+/*-------myBusTracker css block ends here --------*/
+
+/*----------on the go css block starts------*/
+#OnthegoBlock{
+
+}
+.onthegoContent{
+  width: 1035px;
+  margin: 62px auto;
+
+}
+.onthegoContent h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+}
+.onthegoSub {
+  width: 38%;
+  margin: 40px 0; 
+}
+.onthegoSubText {
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  margin-top: -15px;
+}
+.textArea1 input{
+  width: 10%;
+  display: inline;
+}
+.IP {
+  float: left;
+  width: 20%;
+  height: 23px;
+}
+#smsText{
+  height: 18px;
+    margin-left: 10px;
+    width: 60%;
+    line-height: 1em;
+}
+#sendLinkButton{
+  margin-top: 15px;
+    display: inline-block;
+    padding: 6px 16px 7px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .1s;
+    border: none;
+    text-align: center;
+    background-color: #d84e55;
+    color: #fff;
+}
+.appleIcon p:first-child {
+  background: url(../images/country.png) !important;
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat !important;
+  background-position: 0 -80px !important;
+  text-indent: -9999px;
+}
+.playStoreIcon p:first-child {
+  margin-top: -95px;
+    margin-left: 55px;
+  background: url(../images/country.png) !important;
+  height: 80px;
+  width: 40px;
+  background-repeat: no-repeat !important;
+  background-position: 0 40px !important;
+  text-indent: -9999px;
+}
+.phonePic {
+  margin-left: 700px;
+  margin-top: -500px;
+  display: flex;
+  right: 45px;
+  z-index: 3;
+}
+.bigImage{
+  display: block;
+  position: absolute;
+  margin-right: 0px;
+  margin-top: -485px;
+}
+
+.bg-img{
+  border: none;
+  opacity: .2;
+  width: 100%;
+  display: inline-block;
+}
+/*----------onthe go css block ends------*/
+
+
+/*--------our global present css start here --------*/
+#globalBlock {
+  background-color:#e8ecef;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.globalBlockContent {
+  width: 1200px;
+  margin: 30px auto;
+}
+.globalBlockContent h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: bold;
+}
+.globalBlockContent article{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.globalBlockContent article>div {
+  flex-basis: 32%;
+  /*width: 32%;*/
+  /*background: lightpink;*/
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+.country {
+  text-align: center;
+  text-transform: uppercase;
+  color: #777;
+  font-size: 15px;
+}
+.india p:first-child {
+    background: url(../images/country.png) !important;
+    height: 80px;
+    width: 123px;
+    background-repeat: no-repeat !important;
+    background-position: 0 -294px !important;
+    text-indent: -9999px;
+
+}
+.colombia p:first-child{
+  background: url(../images/country.png) !important;
+  height: 80px;
+  width: 123px;
+  background-repeat: no-repeat !important;
+  background-position: 0 -614px !important;
+  text-indent: -9999px;
+
+}
+.indonesia p:first-child {
+  background: url(../images/country.png) !important;
+  height: 80px;
+  width: 123px;
+  background-repeat: no-repeat !important;
+  background-position: 0 -214px !important;
+  text-indent: -9999px;
+}
+.malaysia p:first-child{
+  background: url(../images/country.png) !important;
+  height: 80px;
+  width: 123px;
+  background-repeat: no-repeat !important;
+  background-position: 0 -374px !important;
+  text-indent: -9999px;
+
+}
+
+.peru p:first-child{
+  background: url(../images/country.png) !important;
+  height: 80px;
+  width: 123px;
+  background-repeat: no-repeat !important;
+  background-position: 0 -454px !important;
+  text-indent: -9999px;
+}
+.singapoor p:first-child{
+  background: url(../images/country.png) !important;
+  height: 80px;
+  width: 123px;
+  background-repeat: no-repeat !important;
+  background-position: 0 -534px !important;
+  text-indent: -9999px;
+}
+/*--------our global present css ends here --------*/
+
+
+/*<!---------promise css block starts------>*/
+.PromiseBlockArea{
+  padding-bottom: 45px;
+  padding-top: 45px;
+  background-color: #ededed;
+}
+#promiseBlock article {
+  width: 1200px;
+  margin: 0 auto;
+}
+#promiseBlock article >header{
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#promiseBlock article >header p{
+  margin: 0;
+  padding: 0;
+}
+#promiseBlock article>header p img{
+  height: 100px;
+}
+#promiseBlock article>header h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+.mainPromiseContainer {
+  background: #fff;
+  display: flex;
+  margin-top: 50px;
+  border: 1 px solid #cccccc87;
+}
+.mainPromiseContainer div {
+  flex: 1;
+  border: 1px solid #cccccc87;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.mainPromiseContainer div img{
+  width: 112px;
+  height: 86px;
+}
+.mainPromiseContainer div h5{
+  text-transform: uppercase;
+  color: lighter;
+  padding: 30px 30px 0px;
+  text-align: center;
+  height: 20px;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.mainPromiseContainer div footer p{
+  font-size: 14px;
+  color: #666;
+  text-align:center;
+  line-height: 23px;
+}
+/*<!---------promise css block ends------>*/
+
+/*-----------award and reco css block start------*/
+#awardBlock article {
+  width:100%;
+}
+#awardBlock article >header{
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#awardBlock h1{
+  text-align: center;
+  font-size: 27px;
+  
+}
+#awardBlock div{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  padding-right: 0px;
+}
+.mainAwardContainer{
+  background: #fff;
+  display: flex;
+  margin-top: 50px;
+  border: 1 px solid #cccccc87;
+}
+.mainAwardContainer div footer p{
+  text-align: center;
+  width: 186px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-top: 62px;
+  font-weight: 500!important;
+  line-height: 25px!important;
+
+}
+/*-----------award and reco css block ends------*/
+
+/*------number block css------*/
+#numberBlock {
+  width: 100%;
+}
+#numberBlock article >header{
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#numberBlock h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.mainNumberContainer {
+  background: #fff;
+  display: flex;
+  margin-top: -20px;
+}
+.mainNumberContainer div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 39px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.topText {
+  text-align: center;
+  color: #737373;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.mainNumberContainer div main{
+  color: #da4e52;
+  font-size: 46px;
+  font-weight: 400;
+  text-align: center;
+}
+.lowerText{
+  width: 208px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: #333131;
+  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 1.5em!important;
+  word-spacing: 2px!important;
+  font-weight: 300!important;
+}
+/*------number block css------*/
+
+/*<!---------top bus route css block starts here------>*/
+#topBusRoutes {
+  width:100%;
+  background-color: #cccccc;
+  
+}
+
+.listOfRoutes{
+  display: flex;
+  margin-left: 15px;
+}
+.listOfRoutes h6{
+  margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 1.0em;
+
+}
+.listOfRoutes p{
+  margin-bottom: 5px;
+    font-weight: 8;
+    font-size: 0.9em;
+}
+.list{
+  margin-left: 100px;
+  margin-right: 15px;
+}
+
+.listseperate{
+    width: 1215px;
+    height: 2px;
+    border-bottom: 1px solid rgb(160, 153, 153);
+    padding-top: 35px;
+    margin-left: 100px
+    display: inline-block;
+}
+
+.Top_Operators h6{
+    margin-bottom: 5px;
+    font-weight: 800;
+    font-size: 1.0em;
+    margin-left: 100px;
+}
+.Top_Operators div{
+  display: flex;
+}
+.Top_Operators div ul li {
+  float: left;
+  padding: 0 10px 0 0;
+  margin-right: 10px;
+  border-right: 1px solid #999;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: #cccccc;
+}
+.Top_Operators div ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.operator_list{
+  margin-left: 100px;
+  padding: 15px 0;
+  box-sizing: border-box;
+}
+/*<!---------top bus css route block ends here------>*/
+
+
+/* -------about redbud css starts---------*/
+.endBlock{
+  display: flex;
+}
+
+#aboutRedbus{
+  width: 100%;
+  background-color: #1b2330;
+  color:#ccc;
+}
+.leftAbout{
+  width: 70%;
+  font-weight: 700;
+  margin-bottom: 19px;
+  color: #797979;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 100px;
+}
+.leftAbout h6{
+    font-weight: 700;
+    margin-bottom: 19px;
+    color: #797979;
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 1.0em;
+    margin-right: 150px;
+    font-size: 14px;
+}
+.leftAbout p{
+    color: #d7d7d7;
+    margin-bottom: 10px;
+    font-weight: 300; 
+    margin-right: 60px; 
+}
+  
+.rightAbout{
+  width: 20%;
+}
+.rightLastLogo{
+  background-image: url(../images/logo.png);
+  width: 81px;
+  height: 49px;
+  margin-top: 30px;
+}
+
+
+/* -------about redbud css starts---------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------testing border box----*/
+/*z-index // always along with posiotion giving more importance 
+
+px -> absoulute unit(fixed unit)same in different screen size
+%  -> relative unit, it is responsive.
+em -> relative font
+rem -> relative port parent
+vw -> 
+vwin
+vMax
+*/
+
+/*
+nav:nth-child(odd){
+    background: #fff;
+    color: #111;
+    padding: 10px;
+    margin: 10px 0px;
+}
+nav:nth-child(even){
+    background: #111;
+    color: pink;
+    padding: 10px;
+    margin: 10px 0px;
+}*/

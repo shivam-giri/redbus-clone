@@ -1,0 +1,10 @@
+step 1: first command, initialize empty git repository
+command----> git init 
+     
+
+step 2: config git repository including username and email adress for tracking...
+command----> git config --global user.name "name"
+             git config --global user.email "email_id"
+
+step 3: adding headers
+command---->
