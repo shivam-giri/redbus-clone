@@ -6,5 +6,9 @@ step 2: config git repository including username and email adress for tracking..
 command----> git config --global user.name "name"
              git config --global user.email "email_id"
 
-step 3: adding headers
-command---->
+step 3: adding all files to empty repo 
+command----> git add .
+--> add file name index.html--->>> git add index.html //head
+
+step 4: commit //body // tracking including time date user
+command---> git comment -m "first commit" 
