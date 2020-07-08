@@ -12,3 +12,8 @@ command----> git add .
 
 step 4: commit //body // tracking including time date user
 command---> git comment -m "first commit" 
+
+
+git status:
+------------------------------------------------------------------------
+git add and git commit should update every time when any change in your source code and should apply add and commit.
