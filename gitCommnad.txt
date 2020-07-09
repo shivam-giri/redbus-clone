@@ -1,3 +1,5 @@
+github:-pass: Shivamgiri8896
+
 step 1: first command, initialize empty git repository
 command----> git init 
      
@@ -30,3 +32,8 @@ sub branches use
 ----------------
     git branch shashi
     git checkout shashi-----> switching one branch to another branch
+//-------- merge into default branch:------
+git merge "branch name"
+  
+//deleting branch:
+   git branch -d "branch_name"
