@@ -37,3 +37,23 @@ git merge "branch name"
   
 //deleting branch:
    git branch -d "branch_name"
+
+
+   ===============================================================================================
+   git-->local repo                               github--> global repo
+        
+        connecting local repository into global repository by using command.
+        
+        command:-
+        -->  git remote add origin  https://github.com/shivam-giri/redbus-clone.git
+
+************************uploding or push into github****************
+first time it throws an error conflict error
+git push origin master---> an error
+\
+// first step: download README.MD file and combine with local repository.
+git pull -- allow-unrelated-histories origin master
+
+for uploding:
+-------------
+   git push origin master

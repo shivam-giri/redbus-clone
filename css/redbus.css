@@ -426,13 +426,14 @@ input[type="date"] {
   height: 23px;
 }
 #smsText{
-  height: 18px;
+    height: 18px;
     margin-left: 10px;
     width: 60%;
     line-height: 1em;
 }
 #sendLinkButton{
-  margin-top: 15px;
+    z-index: 3;
+    margin-top: 15px;
     display: inline-block;
     padding: 6px 16px 7px;
     text-transform: uppercase;
@@ -448,6 +449,7 @@ input[type="date"] {
     color: #fff;
 }
 .appleIcon p:first-child {
+  z-index: 3;
   background: url(../images/country.png) !important;
   height: 40px;
   width: 40px;
@@ -456,6 +458,7 @@ input[type="date"] {
   text-indent: -9999px;
 }
 .playStoreIcon p:first-child {
+  z-index: 3;
   margin-top: -95px;
     margin-left: 55px;
   background: url(../images/country.png) !important;
@@ -470,7 +473,6 @@ input[type="date"] {
   margin-top: -500px;
   display: flex;
   right: 45px;
-  z-index: 3;
 }
 .bigImage{
   display: block;
@@ -779,7 +781,7 @@ input[type="date"] {
     height: 2px;
     border-bottom: 1px solid rgb(160, 153, 153);
     padding-top: 35px;
-    margin-left: 100px
+    margin-left: 100px;
     display: inline-block;
 }
 
@@ -820,7 +822,6 @@ input[type="date"] {
 .endBlock{
   display: flex;
 }
-
 #aboutRedbus{
   width: 100%;
   background-color: #1b2330;
@@ -850,8 +851,7 @@ input[type="date"] {
     margin-bottom: 10px;
     font-weight: 300; 
     margin-right: 60px; 
-}
-  
+} 
 .rightAbout{
   width: 20%;
 }
@@ -860,14 +860,18 @@ input[type="date"] {
   width: 81px;
   height: 49px;
   margin-top: 30px;
+  display: flex;
 }
-
-
 /* -------about redbud css starts---------*/
 
 
+/*drop down header menu=========*/
+.ddm{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 
-
+}
 
 
 
