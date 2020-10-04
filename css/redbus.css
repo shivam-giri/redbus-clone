@@ -339,12 +339,11 @@ input[type="date"] {
   display: inline-block;
 }
 .know_more{
+  color: #4c8fdb;
+  padding: 8px 17px;
   text-decoration: none;
-  color:blueviolet;
   border-radius: 2px;
-  text-decoration: none;
-  border: 1px solid blueviolet;
-  cursor: pointer;
+  border: 1px solid #4c8fdb;
 }
 .know_more a
 {
@@ -353,14 +352,14 @@ input[type="date"] {
   text-align: center;
 }
 .links_tmb{
-  display: inline-block;
-  float: left;
-  text-decoration: none;
-  padding-top: 90px;
+  padding-top: 24px;
+  margin: 55px;
+  margin-left: 89px;
   width: 130px;
   height: 32px;
   box-sizing: border-box;
 }
+
 
 .info_tmb{
   margin-left: 135px;
@@ -873,7 +872,14 @@ input[type="date"] {
 
 }
 
-
+.copywrite p{
+  color: peru;
+    font-size: 32px;
+    font-style: oblique;
+}
+.copywrite a {
+  color: deeppink;
+}
 
 
 
